@@ -3,8 +3,7 @@
 
 Esta es una aplicación simple que permite cargar archivos CSV de actividades físicas, detectar actividades sospechosas y mostrar los resultados.
 
-
-![Alt text](image.png)
+![Vista previa de la aplicación](public/activties.png)
 
 ## Características
 
@@ -47,12 +46,10 @@ go get
 npm start
 
 # En el directorio backend/
-
 go run main.go
 ```
 
 5. Abre tu navegador y visita `http://localhost:3000` para acceder a la aplicación.
-
 
 ## Licencia
 Este proyecto está bajo la Licencia MIT. Consulta el archivo [LICENSE](LICENSE) para más detalles.
