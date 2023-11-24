@@ -3,7 +3,7 @@
 
 Esta es una aplicación simple que permite cargar archivos CSV de actividades físicas, detectar actividades sospechosas y mostrar los resultados.
 
-![Vista previa de la aplicación](public/activties.png)
+![Vista previa de la aplicación](./public/activties.png)
 
 ## Características
 
