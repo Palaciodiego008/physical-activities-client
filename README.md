@@ -1,7 +1,8 @@
 ```markdown
 # Aplicación de Detección de Actividades Sospechosas
 
-Esta es una aplicación simple que permite cargar archivos CSV de actividades físicas, detectar actividades sospechosas y mostrar los resultados.
+Esta es una aplicación simple que permite cargar archivos CSV de actividades físicas,
+detectar actividades sospechosas y mostrar los resultados.
 
 
 ## Características
