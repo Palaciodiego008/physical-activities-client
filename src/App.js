@@ -1,25 +1,23 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { useState } from 'react';
+import FileUpload from './components/FileUpload';
+import SuspiciousActivities from './components/SuspiciousActivities';
 
-function App() {
+const App = () => {
+  const [uploaded, setUploaded] = useState(false);
+
+  const handleUpload = () => {
+    setUploaded(true);
+  };
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="min-h-screen flex items-center justify-center bg-gray-100">
+      <div className="bg-white p-8 rounded-md shadow-md text-gray-800">
+        <h1 className="text-3xl font-bold mb-6">Aplicación de Detección de Actividades Sospechosas</h1>
+        <FileUpload onUpload={handleUpload} />
+        {uploaded && <SuspiciousActivities />}
+      </div>
     </div>
   );
-}
+};
 
 export default App;
