@@ -3,6 +3,9 @@
 
 Esta es una aplicación simple que permite cargar archivos CSV de actividades físicas, detectar actividades sospechosas y mostrar los resultados.
 
+
+![Alt text](image.png)
+
 ## Características
 
 - **Subida de Archivos**: Permite a los usuarios cargar archivos CSV con datos de actividades físicas.
