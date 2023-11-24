@@ -27,14 +27,13 @@ cd nombre-del-repositorio
 2. Instala las dependencias del frontend:
 
 ```bash
-cd frontend
 npm install
 ```
 
 3. Instala las dependencias del backend:
 
 ```bash
-cd backend
+cd physical_activities_server
 go get
 ```
 
@@ -45,6 +44,7 @@ go get
 npm start
 
 # En el directorio backend/
+
 go run main.go
 ```
 
