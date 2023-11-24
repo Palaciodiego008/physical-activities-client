@@ -4,7 +4,7 @@ import axios from 'axios';
 const SuspiciousActivities = () => {
   const [activities, setActivities] = useState([]);
   const [showMore, setShowMore] = useState(false);
-  const initialLimit = 25;
+  const initialLimit = 10;
   const [displayedActivities, setDisplayedActivities] = useState([]);
 
   useEffect(() => {
